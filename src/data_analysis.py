@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
-from database_manager import get_historical_data
+from .database_manager import get_historical_data
 
 
 def perform_regression_analysis():
